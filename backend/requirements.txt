@@ -14,7 +14,7 @@ psycopg2-binary==2.9.9
 
 # ─── Authentication ──────────────────────────────────────────
 PyJWT==2.8.0
-bcrypt==4.1.2
+bcrypt==3.2.2
 python-multipart==0.0.6
 
 # ─── Google OAuth ────────────────────────────────────────────
