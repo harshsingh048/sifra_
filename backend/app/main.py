@@ -12,7 +12,7 @@ from app.routes import auth, users, tasks, applications, dashboard
 from app.database import engine, Base
 
 # Create database tables on startup
-Base.metadata.create_all(bind=engine)
+
 
 app = FastAPI(
     title="Local Freelancing Marketplace API",
